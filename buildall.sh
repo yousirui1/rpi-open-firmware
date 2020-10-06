@@ -1,9 +1,12 @@
 #!/bin/bash
 
+#export CROSS_COMPILE=arm-linux-gnueabihf-
+
 make clean
 cd arm_chainloader
 make clean
 cd ..
+
 
 set -e
 
